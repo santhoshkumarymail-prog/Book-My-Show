@@ -10,7 +10,7 @@ pipeline {
 
     environment {
         SCANNER_HOME = tool 'sonarqube-scanner'
-        DOCKER_IMAGE = 'santhoshky/kube-assignment'
+        DOCKER_IMAGE = 'santhoshky/kube-assignment:2.0'
         EKS_CLUSTER_NAME = 'bookmyshow-eks'
         AWS_REGION = 'us-east-1'
     }
